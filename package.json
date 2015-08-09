@@ -1,0 +1,13 @@
+{
+	"name": "IFB",
+	"license":"MIT",
+	"repository":{
+		"type":"git",
+		"url":"http://github.com/hasinhayder/InteractiveForwardBot.git"
+		},
+		"description": "Interactive Forward Bot. Ask questions in a sequential order with lots of funs included!",
+		"author": "hasin hayder<hasin@leevio.com>",
+		"dependencies": {
+			"sleep": "*"
+		}
+	}
