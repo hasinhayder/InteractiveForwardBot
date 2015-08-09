@@ -4,7 +4,7 @@ module.exports = {
 	questions : [
 		{
 			q:"Hey, How are you?",
-			link:["how","not bad"],
+			link:["how","not bad","you"],
 			linkans: "I am fine too, thanks!",
 			no:["no","not good","bad"],
 			noq:{
