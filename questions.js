@@ -47,11 +47,11 @@ module.exports = {
 		},
 		{
 			q:"Are you in front of a computer? Because you need to write some code :)",
-			no:["mobile","no","not"],
+			no:["mobile","no","not","negative"],
 			noq:{
 				q:"Ok then, please knock me back when you're in front of a computer"
 			},
-			link:["yes","ofc","of course","sure","ok"],
+			link:["yes","ofc","of course","sure","ok","correct","affirmative"],
 			linkans:"You know what, it's kinda late here. So let's talk tomorrow! Have a good day. Bye Bye"
 		}
 	]
