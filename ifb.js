@@ -24,7 +24,7 @@ rl.on("line", function (line) {
 
     //this user is definitely a fucknut, say goodbye
     if (linked.length > 0) {
-        randomAnsIndex = Math.floor(Math.random() * (q.commonans.length - 0));
+        randomAnsIndex = Math.floor(Math.random() * q.commonans.length);
         sleep.sleep(1);
         console.log(q.commonans[randomAnsIndex]);
         process.exit();
