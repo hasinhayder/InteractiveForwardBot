@@ -18,7 +18,7 @@ rl.on("line", function (line) {
     var linked = false;
 
     //profanity check - let's say bye to the fucknuts
-    linked = q.commonno.filter(function (n) {
+    linked = q.profanity.filter(function (n) {
         return line.indexOf(n) !== -1;
     });
 
