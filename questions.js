@@ -4,7 +4,6 @@ module.exports = {
 	questions : [
 		{
 			q:"Hey, How are you?",
-			skip:["fine","thanks","ok"],
 			link:["how","not bad"],
 			linkans: "I am fine too, thanks!",
 			no:["no","not good","bad"],
@@ -14,7 +13,6 @@ module.exports = {
 		},
 		{
 			q:"Nice! So how is the weather?",
-			skip:["hot", "cold", "snow", "rain"],
 			link:["how"],
 			no:["bad"],
 			linkans:"Hmm, weather is nice around here. Mild and breezy!",
@@ -36,7 +34,6 @@ module.exports = {
 		},
 		{
 			q:"Okay. So I'd like to ask a few questions to understand whether this will be a good fit for you. Are you ok with that?",
-			skip:["yes","sure","ok","fine","go ahead","pls","hmm"],
 			link:["yes"],
 			no:["no","not","maybe","seriously"],
 			linkans:"Perfect! Let's proceed.",
@@ -50,7 +47,6 @@ module.exports = {
 		},
 		{
 			q:"Are you in front of a computer? Because you need to write some code :)",
-			skip:["yes","sure","ya","hmm"],
 			no:["mobile","no","not"],
 			linkans:"Ok then, please knock me back when you're in front of  computer"
 		}
