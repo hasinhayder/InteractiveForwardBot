@@ -19,7 +19,7 @@ module.exports = {
 			noq:{
 				q:"Looks like it's only me who's having some funtime with weather. Are you okay?",
 				link:["sure","yes","ha"],
-				linkans:"Looks like You're in a good mood. Ha?",
+				linkans:"It seems that you're in a good mood, ha?",
 				no:["nah","meh","maybe","no"],
 				noq:{
 					q:"In that case I think we should talk another time. Do you still want to continue?",
