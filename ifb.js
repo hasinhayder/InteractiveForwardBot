@@ -1,5 +1,5 @@
-var q = require("./questions.js");
-var readline = require('readline'),
+var q = require("./questions.js"),
+    readline = require('readline'),
     sleep = require('sleep'),
     rl = readline.createInterface({
         input: process.stdin,
