@@ -1,13 +1,33 @@
 {
-	"name": "IFB",
-	"license":"MIT",
-	"repository":{
-		"type":"git",
-		"url":"http://github.com/hasinhayder/InteractiveForwardBot.git"
-		},
-		"description": "Interactive Forward Bot. Ask questions in a sequential order with lots of funs included!",
-		"author": "hasin hayder<hasin@leevio.com>",
-		"dependencies": {
-			"sleep": "*"
-		}
-	}
+  "name": "interactive-forward-bot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hasinhayder/InteractiveForwardBot.git"
+  },
+  "description": "Interactive Forward Bot. Ask questions in a sequential order with lots of funs included!",
+  "author": {
+    "name": "Hasin Hayder",
+    "email": "hasin@leevio.com"
+  },
+  "dependencies": {
+    "sleep": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/hasinhayder/InteractiveForwardBot/issues"
+  },
+  "homepage": "https://github.com/hasinhayder/InteractiveForwardBot#readme",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo What are you trying to test?",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "ifb",
+    "bot",
+    "interactive",
+    "questions"
+  ]
+}
