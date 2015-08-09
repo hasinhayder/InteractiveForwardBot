@@ -1,6 +1,6 @@
 module.exports = {
 	profanity:["fuck","quit","damn you","don't be stupid","you're silly","screw you","wtf"],
-	commonans:["Oh oops! Let's talk another time","That's not nice! There's no talking to you.","STFU & Go To Sleep","Screw You! This conversation is over.","What? What on earth...","Dang! I thought I was nice to you"],
+	commonans:["Oh oops! Let's talk another time","That's not nice! There's no talking to you.","STFU & Go To Sleep","Screw You! This conversation is over.","What? What on earth...","Dang! I think I was nice to you"],
 	questions : [
 		{
 			q:"Hey, How are you?",
