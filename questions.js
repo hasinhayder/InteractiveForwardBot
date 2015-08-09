@@ -14,8 +14,8 @@ module.exports = {
 		{
 			q:"Nice! So how is the weather?",
 			link:["how"],
-			no:["bad"],
 			linkans:"Hmm, weather is nice around here. Mild and breezy!",
+			no:["bad"],
 			noq:{
 				q:"Looks like it's only me who's having some funtime with weather. Are you okay?",
 				link:["sure","yes","ha"],
@@ -35,8 +35,8 @@ module.exports = {
 		{
 			q:"Okay. So I'd like to ask a few questions to understand whether this will be a good fit for you. Are you ok with that?",
 			link:["yes"],
-			no:["no","not","maybe","seriously"],
 			linkans:"Perfect! Let's proceed.",
+			no:["no","not","maybe","seriously"],
 			noq:{
 				q:"I think we should talk another time, What do you think?",
 				no:["yes","ok","sure","perfect"],
@@ -48,7 +48,11 @@ module.exports = {
 		{
 			q:"Are you in front of a computer? Because you need to write some code :)",
 			no:["mobile","no","not"],
-			linkans:"Ok then, please knock me back when you're in front of  computer"
+			noq:{
+				q:"Ok then, please knock me back when you're in front of a computer"
+			},
+			link:["yes","ofc","of course","sure","ok"],
+			linkans:"You know what, it's kinda late here. So let's talk tomorrow! Have a good day. Bye Bye"
 		}
 	]
 }
